@@ -1,6 +1,6 @@
 import { bot } from '../../../src/bot';
 import { OutgoingRequest } from '../../interfaces/outgoing-request';
-import { mockCommand } from '../../mocks/messages.mock';
+import { mockCommand } from '../../__mocks__/messages.mock';
 
 describe('stuff tests', () => {
   const requests: OutgoingRequest[] = [];
